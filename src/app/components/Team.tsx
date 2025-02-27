@@ -93,45 +93,58 @@ const members = [
   },
   {
     id: 6,
-    name: "Diego Alvarez",
-    pos: "Projects Chair",
-    pic: "/board/diego.jpg",
-    major: "Aerospace Engineering",
-    linkedin: "https:/www.linkedin.com/in/diego-alvarez27",
-    email: "diegoaviones4@gmail.com",
+    name: "Justin Hoyos",
+    pos: "Projects Co-Chair",
+    pic: "/board/justin.jpg",
+    major: "Computer Sceince",
+    linkedin: "https://www.linkedin.com/in/justinhoyos/",
+    email: "projects@shpeucf.com",
     age: 19,
-    futureJob: "Aerospace Engineering",
-    hobbies: ["Tinkering", "Fishing", "Tennis"],
-    bio: `My diverse experiences have honed my skills as an engineer and a leader, preparing me to advocate for underrepresented engineers and lead impactful projects. As Project Chair at SHPE UCF, I develop inclusive projects to help members overcome technical and cultural challenges. `
+    futureJob: "Cyber Engineering",
+    hobbies: ["One piece", "Coding", "Gaming"],
+    bio: `Hey! My name is Justin and I am a Cuban from Miami! I am currently a second-year Computer Science student and I work as a Cyber Engineer in the Defense Industry. I hope to one day create a career as a Software Engineer in the Biomedical or Fintech Industries as well. I look forward to being your Projects Co-Chair and bringing you cool, interactive workshops weekly! `
   },
   {
     id: 7,
+    name: "Jonathan Camacho",
+    pos: "Projects Co-Chair",
+    pic: "/board/jonathan.jpg",
+    major: "Computer Sceince",
+    linkedin: "https://www.linkedin.com/in/jc150/",
+    email: "projects@shpeucf.com",
+    age: 20,
+    futureJob: "Software Developer in the space industry",
+    hobbies: ["Bad Bunny", "Traveling", "Space"],
+    bio: `Hello! My name is Jonathan Camacho and i am from Puerto Rico.  I am a third-year Computer science major and work at the Propulsion and Energy Research Lab at UCF.  A fun fact is that I have several Pilot's License ratings. `
+  },
+  {
+    id: 8,
     name: "Gabriela A. Cárdenas Sánchez",
     pos: "Marketing Chair",
     pic: "/board/gabriela.jpg",
     major: "Industrial Engineering",
     linkedin: "https://www.linkedin.com/in/gabriela-cardenas-sanchez-966b43234",
     email: "marketing@shpeucf.com",
-    age: 22,
+    age: 23,
     futureJob: "Project Management, Technical Design, Drafting",
     hobbies: ["Sports", "Modeling", "F1", "Sewing", "Amusement parks", "Music", "Traveling", "Concerts", "Try new things and adventures"],
     bio: `Hey! My name is Gabriela, I was born in Maracay, Venezuela, my grandparents where Colombian (Medellin) and Lebanese (Zgharta) immigrants in Venezuela. I'm majoring in Industrial Engineering and minoring in Business Administration. Fun fact about me: I do rappel since I was 2 years old. I also want to be an architect and a fashion designer living in Italy, that's why I'm learning my forth language (Italian)`
   },
   {
-    id: 8,
-    name: "Alex Diener",
+    id: 9,
+    name: "Sophia Mosquera",
     pos: "Socials Chair",
-    pic: "/board/alex.jpg",
-    major: "Mechanical Engineering",
-    linkedin: "https://www.linkedin.com/in/alexanderdiener",
+    pic: "/board/sophia.jpg",
+    major: "Civil Engineering",
+    linkedin: "https://www.linkedin.com/in/sophia-mosquera/",
     email: "socials@shpeucf.com",
-    age: 22,
+    age: 20,
     futureJob: "Automotive Engineering",
-    hobbies: ["Scuba diving", "Cars", "Travel"],
-    bio: `5th year student graduating in Fall 2024. I am from South Florida and I am Colombian. I’ve been in SHPE since my freshman year and I am excited to give back to this club and give you all a fun semester!`
+    hobbies: ["Scuba diving", "Working out", "Cooking"],
+    bio: `Hi! I’m Sophia, a second year Civil Engineering Student. I currently work at Terracon as a Geotechnical Intern, and in the summer I will be a VDC Intern at Whiting Turner. I am Colombian, but grew up in Jacksonville, and a fun fact about me is I also work in the Outdoor Adventure Center in the RWC.`
   },
   {
-    id: 9,
+    id: 10,
     name: "Isabella Ortega",
     pos: "SHPETinas Chair",
     pic: "/board/isabella.jpg",
@@ -144,7 +157,7 @@ const members = [
     bio: `Hey! My name is Isabella (or Isa) and I'm a second year industrial engineering major. I am from So-Flo and am Venezuelan. I am here to support my fellow women in STEM any way I can.`
   },
   {
-    id: 10,
+    id: 11,
     name: "Sergio Paez",
     pos: "Pro Dev Co-Chair",
     pic: "/board/sergio.jpg",
@@ -157,7 +170,7 @@ const members = [
     bio: `Hi yall! My name is Sergio Paez, I am a first-generation Venezuelan American (born and raised in Miami, FL) and I am currently serving as one of SHPE UCF's Pro Dev Co-Chairs. This past summer, I was an Operations Services Intern on the Logistics Data Solutions Team at NVIDIA, and have previously participated in programs held by Jane Street, Vanguard, and Accenture. I have a passion for solving problems, and aspire to utilize both software/hardware to solve the world's toughest challenges. Outside of school, I like to ride my bike around the Orlando area, explore new sights, and stay up to date with new music!`
   },
   {
-    id: 11,
+    id: 12,
     name: "Nicholas Caballero",
     pos: "Pro Dev Co-Chair",
     pic: "/board/nicholas.jpg",
@@ -170,9 +183,21 @@ const members = [
     bio: "What is up! My name is Nicholas Caballero and I am a Mechanical Engineer major. I have an internship with Siemens-Energy but I wish to one day work in the R&D industry or something that directly brings smiles to people’s faces. I love to cook, bedrot while watching shows, and lift! If you ever see me, don’t be afraid to say hi! Excited to work with you all and be one of your Professional Development Chairs. "
   },
   {
-    id: 12,
+    id: 13,
+    name: "Alejandra Camejo",
+    pos: "Outreach Co-Chair",
+    pic: "/board/alejandra.jpg",
+    major: "Industrial Engineering",
+    linkedin: "www.linkedin.com/in/alejandra-camejo1",
+    email: "alejandra.camejo.arrien@gmail.com",
+    futureJob: "Project Management/Data Analytics",
+    hobbies: ["board games", "Traveling", "Watch TV shows"],
+    bio: "Hi everyone, I'm Ale and I'm a first year industrial engineering student! I'm a Venezuelan raised in South Florida. I have been told that I have a resting mad face, but I actually love when people come up to me so feel free to stop me and say hi! I love animals and I'm getting into nature photography. A personal dream of mine is to be touched by a manatee because it's illegal for me to touch them, but not the other way around."
+  },
+  {
+    id: 14,
     name: "Rafael Toranzo",
-    pos: "Outreach Chair",
+    pos: "Outreach Co-Chair",
     pic: "/board/toranzo.jpg",
     major: "Industrial Engineering",
     linkedin: "http://www.linkedin.com/in/rafael-toranzo",
@@ -182,7 +207,7 @@ const members = [
     bio: "Hello everyone, my name is Rafael Toranzo and I am so looking forward to great year of working diligent and having fun with SHPE as the Outreach Chair and I hope we can all have another great year working together and creating yet another exceptional SHPE JR. Conference!"
   },
   {
-    id: 13,
+    id: 15,
     name: "Steven Matute",
     pos: "MentorSHPE Co-Chair",
     pic: "/board/steven.jpg",
@@ -195,7 +220,7 @@ const members = [
     bio: "Hello! My name is Steven and I am a first gen here at UCF and my family is from Colombia and Honduras! I am a Civil Engineer major with previous internship experience in multple construction companies. I love theme parks and anything building, design and construction!"
   },
   {
-    id: 14,
+    id: 16,
     name: "Alejandro Giraldo",
     pos: "MentorSHPE Co-Chair",
     pic: "/board/alej.jpg",
@@ -208,7 +233,7 @@ const members = [
     bio: "Hi! I'm Alejandro, your MentorSHPE co-director. I'm 21 years old and a Civil Engineering student; I'm pursuing a career in construction management and am more than happy to help out anyone who is interested in the industry!"
   },
   {
-    id: 15,
+    id: 17,
     name: "Nicole Nascimento",
     pos: "Tech Co-Chair",
     pic: "/board/nicole.jpg",
@@ -221,7 +246,7 @@ const members = [
     bio: "Hey! My name is Nicole and I am from the best country in South America: Brazil! I am a fourth-year Computer Science major, work as an Undergraduate Teaching Assistant for Intro to C and as a Software Engineer at UCF. This summer I had my first internship. A fun fact is that I built and designed the website that you are in right now!"
   },
   {
-    id: 16,
+    id: 18,
     name: "Yousef Osman",
     pos: "Tech Co-Chair",
     pic: "/board/yousef.jpg",
